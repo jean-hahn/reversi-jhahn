@@ -18,10 +18,31 @@
 </head>
 
 <body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/images/top-splash.png" alt="Reversi Logo 1" width="130px" />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="index.html">Home</a>
+          <a class="nav-item nav-link" href="about.html">About</a>
+          <a class="nav-item nav-link" href="https://en.wikipedia.org/wiki/Reversi">Rules</a>
+        </div>
+      </div>
+    </div>  
+  </nav>
+
+
   <div class="container-fluid">
     <div class="row m-3 headerrow">
       <div class="col text-center">
-        <h3 id="gameTitle">Reversi</h3>
+        <h2 id="gameTitle">Reversi</h2>
       </div>
     </div>
 
@@ -51,7 +72,7 @@
         <div class="row align-items-start justify-content-center">
           <div class="col-md-8 table-responsive">
             <div class="progress">
-              <div id="elapsed" class="progress-bar progress-bar-animated progress-bar-striped bg-success" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+              <div id="elapsed" class="progress-bar progress-bar-animated progress-bar-striped bg-info" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
 
             <table id="game_board" class="mx-auto w-auto">

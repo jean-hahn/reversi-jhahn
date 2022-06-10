@@ -5,11 +5,11 @@ body {
 
 
 .headerrow {
-    background-color: #F0F0F0;
+    background-color: #e5fcff;
   }
 
 #messagePane {
-    background-color: rgb(238, 255, 217);
+    background-color: #f8f9fa;
 }
 
 .join_room_response,
